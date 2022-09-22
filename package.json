@@ -35,12 +35,14 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.23.1",
+    "eslint": "^8.7.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-react": "^7.31.8",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.5.1",
     "web-vitals": "^3.0.1"
   }
 }

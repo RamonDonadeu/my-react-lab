@@ -1,0 +1,75 @@
+.clue{
+    text-decoration:underline;
+    text-decoration-color: var(--clue-color);
+}
+
+.povClue{
+    text-decoration:underline;
+    text-decoration-color: var(--pov-color);
+}
+
+:root{
+    --cainMainBackground: #030303;
+    --cainContainerBackgroun: #1a1a1b;
+    --characterColor: #d7dadc;
+}
+
+.cainContainer{    
+    background-color: var(--cainMainBackground);
+    color: #d7dadc;;
+}
+
+.cainMain{
+    background-color: var(--cainContainerBackgroun);
+    border-radius: 5px;
+    padding: 2rem;
+    box-sizing: border-box;
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.cainHeader{
+    width: 100%;margin: auto;
+    background: #e5c02d url('../img/bannerCain.jpg') repeat center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-block: 2rem;
+}
+
+.referencias{
+    margin-block: 0.5rem;
+    padding-block: 1rem;
+}
+
+.referencia:first-child{
+    margin-top: 0rem;
+}
+
+.referencia{
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    background-color: #313131;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+
+.numeroPagina{
+
+}
+
+.textoPagina{
+    padding-top: 0.5rem;    
+    padding-right: 0.5rem;
+}
+
+
