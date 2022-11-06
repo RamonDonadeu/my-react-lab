@@ -1,8 +1,17 @@
+@font-face {
+  font-family: Code;
+  src: url("../public/fonts/SourceCodePro-VariableFont_wght.ttf");
+}
+
+html {
+  font-family: Code, Courier, monospace;
+}
+
 body {
   margin: 0;
 }
 
-:root{
+:root {
   --clue-color: purple;
   --pov-color: orange;
 }

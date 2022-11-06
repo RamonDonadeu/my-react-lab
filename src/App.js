@@ -1,14 +1,13 @@
 
 import './App.css'
-import CainMainPage from './pages/cain/CainMainPage'
+import Header from './Components/Header/Header'
+import ViewSection from './Components/ViewSection/ViewSection'
 
 function App () {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
-      <CainMainPage/>
+      <Header></Header>
+      <ViewSection></ViewSection>
     </div>
   )
 }
